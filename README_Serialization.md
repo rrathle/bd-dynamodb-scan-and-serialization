@@ -1,4 +1,4 @@
-## Phase 1: Long live the sundaes!
+ ## Phase 1: Long live the sundaes!
 
 In this phase, we'll be working on persisting the sundae order in the receipts. Each order at the ice cream
 parlor can contain multiple sundaes. The `Receipt` model does not currently have a field for the sundaes that

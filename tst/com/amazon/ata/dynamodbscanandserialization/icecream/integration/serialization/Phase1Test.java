@@ -41,7 +41,7 @@ public class Phase1Test {
 
 
     @BeforeEach
-    private void setup() {
+    public void setup() {
         service = DAGGER.provideIceCreamParlorService();
 
         oneScoopSundae = service.serveSundae(ONE_SCOOP);
