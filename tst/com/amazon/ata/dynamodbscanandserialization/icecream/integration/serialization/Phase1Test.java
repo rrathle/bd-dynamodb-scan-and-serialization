@@ -71,7 +71,7 @@ public class Phase1Test {
         String customerId = UUID.randomUUID().toString();
 
         // WHEN
-        Receipt receipt = service.order(customerId, ImmutableList.of(ONE_SCOOP, TWO_SCOOPS));
+        Receipt receipt = service. order(customerId, ImmutableList.of(ONE_SCOOP, TWO_SCOOPS));
 
         // THEN
         List<Sundae> sundaes = receipt.getSundaes();
